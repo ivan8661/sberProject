@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="999d1cdd-e12f-4d81-8c6c-2326738daa9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sber/dict/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sber/dict/Main.java" afterDir="false" />
+    <list default="true" id="999d1cdd-e12f-4d81-8c6c-2326738daa9c" name="Changes" comment="+ | Init commit | there is code for reading data from csv file (data.csv) with Scanner and put it all to the City.java list">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sber/dict/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sber/dict/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sber/dict/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sber/dict/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -61,7 +61,7 @@
       <recent name="C:\Users\Иван\IdeaProjects\SberProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.SberProject [clean,package]">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sber.dict.Main" />
       <module name="SberProject" />
@@ -119,11 +119,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685035889568</updated>
-      <workItem from="1685035890957" duration="4511000" />
+      <workItem from="1685035890957" duration="11230000" />
     </task>
+    <task id="LOCAL-00001" summary="+ | Init commit | there is code for reading data from csv file (data.csv) with Scanner and put it all to the City.java list">
+      <created>1685040760742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685040760742</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="+ | Init commit | there is code for reading data from csv file (data.csv) with Scanner and put it all to the City.java list" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ | Init commit | there is code for reading data from csv file (data.csv) with Scanner and put it all to the City.java list" />
   </component>
 </project>

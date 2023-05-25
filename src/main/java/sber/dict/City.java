@@ -1,6 +1,8 @@
 package sber.dict;
 
-public class City {
+import java.util.Comparator;
+
+public class City implements Comparable<City>{
 
     private String name;
 
@@ -73,5 +75,19 @@ public class City {
                 ", foundation='" + foundation + '\'' +
                 '}';
     }
+
+    @Override
+    public int compareTo(City o) {
+        return this.name.compareTo(o.name);
+    }
+
+    public static Comparator<City> NameComparator = new Comparator<City>() {
+        @Override
+        public int compare(City o1, City o2) {
+            if(o1.equals(o2))
+                return 0;
+            return o1.name.toLowerCase().compareTo(o2.name.toLowerCase());
+        }
+    };
 
 }
