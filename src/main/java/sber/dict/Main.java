@@ -8,17 +8,11 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
         ArrayList<City> cities = parseFile();
-        Object[] cityArray = cities.toArray();
-        int maxPopulation = ((City)cityArray[0]).getPopulation();
-        int indexPopulation = 0;
-        for(int i = 0; i < cityArray.length; ++i){
-            City city = (City) cityArray[i];
-            if(city.getPopulation() > maxPopulation){
-                indexPopulation = i;
-                maxPopulation = city.getPopulation();
-            }
+        HashMap<String, Integer> map = new HashMap<>();
+        for(City city : cities) {
+            map.merge(city.getRegion(), 1, Integer::sum);
         }
-        System.out.println("["+indexPopulation+"] = " + maxPopulation);
+        System.out.println(map);
     }
 
     public static ArrayList<City> parseFile() throws FileNotFoundException {
