@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="999d1cdd-e12f-4d81-8c6c-2326738daa9c" name="Changes" comment="+ | Init commit | there is code for reading data from csv file (data.csv) with Scanner and put it all to the City.java list">
+    <list default="true" id="999d1cdd-e12f-4d81-8c6c-2326738daa9c" name="Changes" comment="* | City.java | was added implementation of the Comparable interface&#10;* | Main.java | was added sorts by three different paths">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sber/dict/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sber/dict/City.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sber/dict/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sber/dict/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +51,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/Иван/IdeaProjects/SberProject/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -119,7 +122,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685035889568</updated>
-      <workItem from="1685035890957" duration="11230000" />
+      <workItem from="1685035890957" duration="11843000" />
+      <workItem from="1685208499283" duration="691000" />
     </task>
     <task id="LOCAL-00001" summary="+ | Init commit | there is code for reading data from csv file (data.csv) with Scanner and put it all to the City.java list">
       <created>1685040760742</created>
@@ -128,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685040760742</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="* | City.java | was added implementation of the Comparable interface&#10;* | Main.java | was added sorts by three different paths">
+      <created>1685048239855</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685048239855</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+ | Init commit | there is code for reading data from csv file (data.csv) with Scanner and put it all to the City.java list" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ | Init commit | there is code for reading data from csv file (data.csv) with Scanner and put it all to the City.java list" />
+    <MESSAGE value="* | City.java | was added implementation of the Comparable interface&#10;* | Main.java | was added sorts by three different paths" />
+    <option name="LAST_COMMIT_MESSAGE" value="* | City.java | was added implementation of the Comparable interface&#10;* | Main.java | was added sorts by three different paths" />
   </component>
 </project>

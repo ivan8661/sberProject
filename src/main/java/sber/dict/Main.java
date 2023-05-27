@@ -8,26 +8,17 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
         ArrayList<City> cities = parseFile();
-        System.out.println("source: ");
-        formattingOutput(cities);
-        //the default comparer by Name with compareTo
-        System.out.println("sort by name:");
-        cities.sort(City::compareTo);
-        formattingOutput(cities);
-        //sorting with lambda by federation district and name with upper case
-        System.out.println("sort by district and name:");
-        cities.sort((o1, o2) -> {
-            if(o1.getDistrict().equals(o2.getDistrict())){
-                return o1.getName().compareTo(o2.getName());
-            } else {
-                return o1.getDistrict().compareTo(o2.getDistrict());
+        Object[] cityArray = cities.toArray();
+        int maxPopulation = ((City)cityArray[0]).getPopulation();
+        int indexPopulation = 0;
+        for(int i = 0; i < cityArray.length; ++i){
+            City city = (City) cityArray[i];
+            if(city.getPopulation() > maxPopulation){
+                indexPopulation = i;
+                maxPopulation = city.getPopulation();
             }
-        });
-        formattingOutput(cities);
-        //sorting by name again using Comparator
-        System.out.println("sort by name:");
-        cities.sort(City.NameComparator);
-        formattingOutput(cities);
+        }
+        System.out.println("["+indexPopulation+"] = " + maxPopulation);
     }
 
     public static ArrayList<City> parseFile() throws FileNotFoundException {
@@ -49,11 +40,5 @@ public class Main {
             throw new FileNotFoundException("file " + fileWithCities.getName() + " doesn't found or exist!!!");
         }
         return cities;
-    }
-
-    public static void formattingOutput(ArrayList<City> cities) {
-        for(City city : cities){
-            System.out.println(city+"\n");
-        }
     }
 }
